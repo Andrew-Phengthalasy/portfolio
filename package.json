@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "eslint": "^10.3.0",
+    "lucide-react": "^1.14.0",
+    "next.js": "^1.0.3",
+    "tailwindcss": "^4.2.4",
+    "typescript": "^6.0.3"
+  }
+}
