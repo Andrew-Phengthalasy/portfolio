@@ -1,5 +1,6 @@
 import type {Metadata} from "next";
 import {displayFont, displayBodyFont, displayMonoFont} from "./lib/fonts";
+import Cursor from "@/components/cursor"
 import "./global.css"
 
 
@@ -22,7 +23,8 @@ export default function RootLayout({children,}: { children: React.ReactNode; }) 
             lang="en"
             className={`${displayFont.variable} ${displayBodyFont.variable} ${displayMonoFont.variable}`}
         >
-        <body className="font-body bg-background text-warm antialiased">
+        <body className="font-body bg-background text-warm antialiased cursor-none">
+        <Cursor />
         {children}
         </body>
         </html>
