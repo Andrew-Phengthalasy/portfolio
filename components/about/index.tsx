@@ -22,9 +22,6 @@ export default function About() {
                             beautiful products with sharp designs and personality. This website itself
                             is a great learning experience - im having a bunch of fun with this!
                         </p>
-                        <p>
-                            Im an avid Rainbow Six Siege enjoyer, and I love enjoying the New England weather (...)
-                        </p>
                     </div>
                 </div>
 

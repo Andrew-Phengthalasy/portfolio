@@ -12,11 +12,11 @@ module.exports = {
         mono: ["var(--font-mono)", "monospace"],
       },
       colors: {
-        background: "#0f0c1a",
-        surface: "#1c1830",
-        accent: "#8b5cf6",
-        warm: "#ede9e0",
-        muted: "#a09ab8",
+        background: "#0a0812",
+        surface: "#13102a",
+        accent: "#b87fff",
+        warm: "#f0ece4",
+        muted: "#b8b2cc",
       },
       borderRadius: {
         card: "1rem",

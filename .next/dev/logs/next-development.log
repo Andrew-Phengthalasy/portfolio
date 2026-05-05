@@ -1,6 +1,91 @@
-{"timestamp":"00:00:00.311","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:01.093","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:00:02.100","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:00:02.111","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:00:03.283","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:00:08.679","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:00.381","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:01.349","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:03.754","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:28.794","source":"Server","level":"LOG","message":"✓ Compiled in 235ms"}
+{"timestamp":"00:00:54.696","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:56.583","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:03:19.352","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"00:03:26.942","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:03:45.545","source":"Server","level":"LOG","message":"✓ Compiled in 16ms"}
+{"timestamp":"00:03:49.811","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:06:19.419","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
+{"timestamp":"00:07:13.905","source":"Server","level":"LOG","message":"✓ Compiled in 44ms"}
+{"timestamp":"00:07:24.896","source":"Server","level":"LOG","message":"✓ Compiled in 14ms"}
+{"timestamp":"00:07:42.342","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:07:51.929","source":"Server","level":"LOG","message":"✓ Compiled in 14ms"}
+{"timestamp":"00:08:10.362","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"00:09:08.500","source":"Server","level":"LOG","message":"✓ Compiled in 44ms"}
+{"timestamp":"00:09:08.727","source":"Browser","level":"ERROR","message":"./components/landing/index.tsx:25:17\nUnexpected token. Did you mean `{'>'}` or `&gt;`?\n  23 |                 {/* Name */}\n  24 |                 <h1 className=\"font-display text-5xl md:text-7xl font-semibold text-wa...\n> 25 |                 >\n     |                 ^\n  26 |                     Andrew Phengthalasy\n  27 |                 </h1>\n  28 |\n\nParsing ecmascript source code failed\n\nImport trace:\n  Server Component:\n    ./components/landing/index.tsx\n    ./app/page.tsx"}
+{"timestamp":"00:09:13.485","source":"Server","level":"LOG","message":"✓ Compiled in 22ms"}
+{"timestamp":"00:09:13.727","source":"Browser","level":"ERROR","message":"./components/landing/index.tsx:25:17\nUnexpected token. Did you mean `{'>'}` or `&gt;`?\n  23 |                 {/* Name */}\n  24 |                 <h1 className=\"font-display text-5xl md:text-7xl font-semibold text-wa...\n> 25 |                 >\n     |                 ^\n  26 |                     Andrew Phengthalasy\n  27 |                 </h1>\n  28 |\n\nParsing ecmascript source code failed\n\nImport trace:\n  Server Component:\n    ./components/landing/index.tsx\n    ./app/page.tsx"}
+{"timestamp":"00:09:59.818","source":"Server","level":"LOG","message":"✓ Compiled in 19ms"}
+{"timestamp":"00:10:00.727","source":"Browser","level":"ERROR","message":"./components/landing/index.tsx:25:17\nUnexpected token. Did you mean `{'>'}` or `&gt;`?\n  23 |                 {/* Name */}\n  24 |                 <h1 className=\"font-display text-5xl md:text-7xl font-semibold text-wa...\n> 25 |                 >\n     |                 ^\n  26 |                     Andrew Phengthalasy\n  27 |                 </h1>\n  28 |\n\nParsing ecmascript source code failed\n\nImport trace:\n  Server Component:\n    ./components/landing/index.tsx\n    ./app/page.tsx"}
+{"timestamp":"00:11:22.770","source":"Server","level":"ERROR","message":"[browser] \"./components/landing/index.tsx:25:17\\nUnexpected token. Did you mean `{'>'}` or `&gt;`?\\n  23 |                 {/* Name */}\\n  24 |                 <h1 className=\\\"font-display text-5xl md:text-7xl font-semibold text-wa...\\n> 25 |                 >\\n     |                 ^\\n  26 |                     Andrew Phengthalasy\\n  27 |                 </h1>\\n  28 |\\n\\nParsing ecmascript source code failed\\n\\nImport trace:\\n  Server Component:\\n    ./components/landing/index.tsx\\n    ./app/page.tsx\" \"\""}
+{"timestamp":"00:11:22.770","source":"Browser","level":"ERROR","message":"./components/landing/index.tsx:25:17\nUnexpected token. Did you mean `{'>'}` or `&gt;`?\n  23 |                 {/* Name */}\n  24 |                 <h1 className=\"font-display text-5xl md:text-7xl font-semibold text-wa...\n> 25 |                 >\n     |                 ^\n  26 |                     Andrew Phengthalasy\n  27 |                 </h1>\n  28 |\n\nParsing ecmascript source code failed\n\nImport trace:\n  Server Component:\n    ./components/landing/index.tsx\n    ./app/page.tsx \"\""}
+{"timestamp":"00:11:22.770","source":"Server","level":"ERROR","message":"[browser] \"./components/landing/index.tsx:25:17\\nUnexpected token. Did you mean `{'>'}` or `&gt;`?\\n  23 |                 {/* Name */}\\n  24 |                 <h1 className=\\\"font-display text-5xl md:text-7xl font-semibold text-wa...\\n> 25 |                 >\\n     |                 ^\\n  26 |                     Andrew Phengthalasy\\n  27 |                 </h1>\\n  28 |\\n\\nParsing ecmascript source code failed\\n\\nImport trace:\\n  Server Component:\\n    ./components/landing/index.tsx\\n    ./app/page.tsx\" \"\""}
+{"timestamp":"00:11:22.770","source":"Browser","level":"ERROR","message":"./components/landing/index.tsx:25:17\nUnexpected token. Did you mean `{'>'}` or `&gt;`?\n  23 |                 {/* Name */}\n  24 |                 <h1 className=\"font-display text-5xl md:text-7xl font-semibold text-wa...\n> 25 |                 >\n     |                 ^\n  26 |                     Andrew Phengthalasy\n  27 |                 </h1>\n  28 |\n\nParsing ecmascript source code failed\n\nImport trace:\n  Server Component:\n    ./components/landing/index.tsx\n    ./app/page.tsx \"\""}
+{"timestamp":"00:11:22.770","source":"Server","level":"ERROR","message":"[browser] \"./components/landing/index.tsx:25:17\\nUnexpected token. Did you mean `{'>'}` or `&gt;`?\\n  23 |                 {/* Name */}\\n  24 |                 <h1 className=\\\"font-display text-5xl md:text-7xl font-semibold text-wa...\\n> 25 |                 >\\n     |                 ^\\n  26 |                     Andrew Phengthalasy\\n  27 |                 </h1>\\n  28 |\\n\\nParsing ecmascript source code failed\\n\\nImport trace:\\n  Server Component:\\n    ./components/landing/index.tsx\\n    ./app/page.tsx\" \"\""}
+{"timestamp":"00:11:22.770","source":"Browser","level":"ERROR","message":"./components/landing/index.tsx:25:17\nUnexpected token. Did you mean `{'>'}` or `&gt;`?\n  23 |                 {/* Name */}\n  24 |                 <h1 className=\"font-display text-5xl md:text-7xl font-semibold text-wa...\n> 25 |                 >\n     |                 ^\n  26 |                     Andrew Phengthalasy\n  27 |                 </h1>\n  28 |\n\nParsing ecmascript source code failed\n\nImport trace:\n  Server Component:\n    ./components/landing/index.tsx\n    ./app/page.tsx \"\""}
+{"timestamp":"00:12:35.152","source":"Server","level":"LOG","message":"✓ Compiled in 15ms"}
+{"timestamp":"00:12:42.649","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"00:15:44.060","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"00:15:52.589","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"00:16:59.632","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"00:17:34.951","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"00:18:13.020","source":"Server","level":"LOG","message":"✓ Compiled in 11ms"}
+{"timestamp":"00:18:30.774","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"00:19:20.257","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"00:21:49.388","source":"Server","level":"LOG","message":"✓ Compiled in 311ms"}
+{"timestamp":"00:22:39.843","source":"Server","level":"LOG","message":"✓ Compiled in 15ms"}
+{"timestamp":"00:24:04.010","source":"Server","level":"LOG","message":"✓ Compiled in 14ms"}
+{"timestamp":"00:24:09.090","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"00:24:21.789","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"00:24:24.570","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:24:32.079","source":"Server","level":"LOG","message":"✓ Compiled in 14ms"}
+{"timestamp":"00:24:35.887","source":"Server","level":"LOG","message":"✓ Compiled in 11ms"}
+{"timestamp":"00:25:32.203","source":"Server","level":"LOG","message":"✓ Compiled in 14ms"}
+{"timestamp":"00:25:54.959","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:27:35.874","source":"Server","level":"LOG","message":"✓ Compiled in 16ms"}
+{"timestamp":"00:27:57.840","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"00:27:58.727","source":"Browser","level":"ERROR","message":"./components/header/index.tsx:39:17\nExpression expected\n  37 |                     className=\"font-display text-2xl text-warm hover:text-accent trans...\n  38 |                     AP\n> 39 |                 </button>\n     |                 ^\n  40 |                 {/*Desktop Navigation*/}\n  41 |                 <nav\n  42 |                     className=\"hidden md:flex items-center gap-6\">\n\nParsing ecmascript source code failed\n\nImport trace:\n  Server Component:\n    ./components/header/index.tsx\n    ./app/page.tsx"}
+{"timestamp":"00:27:58.727","source":"Browser","level":"ERROR","message":"./components/header/index.tsx:39:18\nUnterminated regexp literal\n  37 |                     className=\"font-display text-2xl text-warm hover:text-accent trans...\n  38 |                     AP\n> 39 |                 </button>\n     |                  ^^^^^^^^\n  40 |                 {/*Desktop Navigation*/}\n  41 |                 <nav\n  42 |                     className=\"hidden md:flex items-center gap-6\">\n\nParsing ecmascript source code failed\n\nImport trace:\n  Server Component:\n    ./components/header/index.tsx\n    ./app/page.tsx"}
+{"timestamp":"00:28:11.322","source":"Server","level":"ERROR","message":"[browser] \"./components/header/index.tsx:39:17\\nExpression expected\\n  37 |                     className=\\\"font-display text-2xl text-warm hover:text-accent trans...\\n  38 |                     AP\\n> 39 |                 </button>\\n     |                 ^\\n  40 |                 {/*Desktop Navigation*/}\\n  41 |                 <nav\\n  42 |                     className=\\\"hidden md:flex items-center gap-6\\\">\\n\\nParsing ecmascript source code failed\\n\\nImport trace:\\n  Server Component:\\n    ./components/header/index.tsx\\n    ./app/page.tsx\" \"\""}
+{"timestamp":"00:28:11.323","source":"Browser","level":"ERROR","message":"./components/header/index.tsx:39:17\nExpression expected\n  37 |                     className=\"font-display text-2xl text-warm hover:text-accent trans...\n  38 |                     AP\n> 39 |                 </button>\n     |                 ^\n  40 |                 {/*Desktop Navigation*/}\n  41 |                 <nav\n  42 |                     className=\"hidden md:flex items-center gap-6\">\n\nParsing ecmascript source code failed\n\nImport trace:\n  Server Component:\n    ./components/header/index.tsx\n    ./app/page.tsx \"\""}
+{"timestamp":"00:28:11.323","source":"Server","level":"ERROR","message":"[browser] \"./components/header/index.tsx:39:18\\nUnterminated regexp literal\\n  37 |                     className=\\\"font-display text-2xl text-warm hover:text-accent trans...\\n  38 |                     AP\\n> 39 |                 </button>\\n     |                  ^^^^^^^^\\n  40 |                 {/*Desktop Navigation*/}\\n  41 |                 <nav\\n  42 |                     className=\\\"hidden md:flex items-center gap-6\\\">\\n\\nParsing ecmascript source code failed\\n\\nImport trace:\\n  Server Component:\\n    ./components/header/index.tsx\\n    ./app/page.tsx\" \"\""}
+{"timestamp":"00:28:11.323","source":"Browser","level":"ERROR","message":"./components/header/index.tsx:39:18\nUnterminated regexp literal\n  37 |                     className=\"font-display text-2xl text-warm hover:text-accent trans...\n  38 |                     AP\n> 39 |                 </button>\n     |                  ^^^^^^^^\n  40 |                 {/*Desktop Navigation*/}\n  41 |                 <nav\n  42 |                     className=\"hidden md:flex items-center gap-6\">\n\nParsing ecmascript source code failed\n\nImport trace:\n  Server Component:\n    ./components/header/index.tsx\n    ./app/page.tsx \"\""}
+{"timestamp":"00:30:12.445","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"00:30:30.077","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:30:40.117","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"00:32:30.533","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"00:32:48.552","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"00:32:53.240","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:33:24.174","source":"Server","level":"LOG","message":"✓ Compiled in 11ms"}
+{"timestamp":"00:34:38.115","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
+{"timestamp":"00:34:52.302","source":"Server","level":"LOG","message":"✓ Compiled in 309ms"}
+{"timestamp":"00:36:18.489","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:36:36.754","source":"Server","level":"LOG","message":"✓ Compiled in 11ms"}
+{"timestamp":"00:36:44.000","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"00:36:47.913","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"00:36:54.169","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"00:36:57.842","source":"Server","level":"LOG","message":"✓ Compiled in 11ms"}
+{"timestamp":"00:37:53.440","source":"Server","level":"LOG","message":"✓ Compiled in 11ms"}
+{"timestamp":"00:38:10.672","source":"Server","level":"LOG","message":"✓ Compiled in 11ms"}
+{"timestamp":"00:42:19.162","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:42:37.887","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:43:05.255","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:43:23.402","source":"Server","level":"LOG","message":"✓ Compiled in 11ms"}
+{"timestamp":"00:44:13.726","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"00:44:18.255","source":"Server","level":"LOG","message":"✓ Compiled in 14ms"}
+{"timestamp":"00:44:24.234","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:44:30.683","source":"Server","level":"LOG","message":"✓ Compiled in 11ms"}
+{"timestamp":"00:45:24.264","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:45:38.158","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:46:07.766","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"00:46:39.098","source":"Server","level":"LOG","message":"✓ Compiled in 14ms"}
+{"timestamp":"00:46:42.517","source":"Server","level":"LOG","message":"✓ Compiled in 11ms"}
+{"timestamp":"00:46:45.386","source":"Server","level":"LOG","message":"✓ Compiled in 15ms"}
+{"timestamp":"00:46:48.665","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"00:46:57.625","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"00:47:01.269","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"00:47:05.084","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"00:49:32.462","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}

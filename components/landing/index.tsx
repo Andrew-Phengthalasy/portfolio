@@ -9,37 +9,32 @@ export default function Hero() {
     };
 
     return (
-        <section className="relative min-h-screen flex flex-col justify-center section-padding"
-        >
+        <section className="relative min-h-screen flex flex-col items-start justify-center px-6">
             {/* background glow */}
             <div
-                className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] bg-accent/10 rounded-full blur =[120px] pointer-events-none"
-            />
-            <div className="relative z-10 max-w-3x1">
+                className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-accent/20 rounded-full blur-[140px] pointer-events-none" />
+            <div className="relative z-10 max-w-3xl w-full mx-auto">
                 {/*label*/}
-                <span className="label mb-6 block"> placeholder</span>
+                <span className="label mb-6 block"> Rising Junior @ Worcester Polytechnic Institute</span>
+
 
                 {/* Name */}
-                <h1 className="font-display text-6x2 md:text-8x1 font-semibold text-warm leading-none mb-4"
-                >
+                <h1 className="font-display text-5xl md:text-6xl font-semibold text-warm leading-none mb-4">
                     Andrew Phengthalasy
                 </h1>
 
                 {/*Title*/}
-                <h2 className="font-display text3x1 md:text-5xl text-muted mb-6">
-                    Full Stack in Progress
+                <h2 className="font-display text-2xl md:text-4xl font-normal text-muted mb-6">
+                    Aspiring Full Stack Developer
                 </h2>
 
                 {/* Bio */}
-                <p className="font-body text-muted text-lg max-w-x1 leading-relaxed mb-10">
-                    Hello! I'm Andrew and I am currently a Sophomore pursuing a double major in Computer Science & Data
-                    Science with a Financial Technology minor at Worcester Polytechnic Institute (WPI). I thrive while
-                    working on engaging, reliable projects that focus on innovation to output real-world solutions. My
-                    passions lie in transforming technical concepts & algorithms into user-friendly experiences.
+                <p className="font-body text-muted text-base max-w-xl leading-relaxed mb-10">
+                    Hello! I'm Andrew and welcome to my website! Here you can find some of my previous projects, connect with my on socials, or just learn more about me as a person; whether its hobbies, what I do at WPI, or the things I love as an aspiring Software Engineer.
                 </p>
                 {/* available buttons */}
                 <div className="flex flex-wrap gap-3 mb-16">
-                    <Button href="/resume.pdf" target="_blank" size="lg">
+                    <Button variant = "outline" href="/AndrewPhengthalasy_resume.pdf" target="_blank" size="lg">
                         <FileText size={18}/> Resume
                     </Button>
                     <Button variant="outline" href="https://github.com/Andrew-Phengthalasy" target="_blank" size="lg">
@@ -58,7 +53,7 @@ export default function Hero() {
             {/* Indicate user to scroll*/}
             <button
                 onClick={projectScroll}
-                className="absolute bottom-10 left-1/2 -translate-x-1/2 text-muted hover: text-accent transition-colors duration-200 animate-bounce"
+                className="absolute bottom-10 left-1/2 -translate-x-1/2 text-muted hover:text-accent transition-colors duration-200 animate-bounce"
             >
                 <ArrowDown size={20}/>
             </button>
