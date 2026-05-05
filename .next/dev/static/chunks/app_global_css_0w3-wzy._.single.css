@@ -1,0 +1,46 @@
+/* [project]/app/global.css [app-client] (css) */
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  color: #ede9e0;
+  background-color: #0f0c1a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0c1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8b5cf6;
+  border-radius: 999px;
+}
+
+@layer components {
+  @apply px-6 py-24 max-w-5x1 mx-auto;
+
+  @apply bg-surface border border-accent/20 rounded-card p-6;
+
+  @apply font-mono text-accent text-xs uppercase tracking-widest;
+}
+
+/*# sourceMappingURL=app_global_css_0w3-wzy._.single.css.map*/

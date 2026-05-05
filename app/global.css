@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    background-color: #0f0c1a;
+    color: #ede9e0;
+}
+
+/* get rid of default margins */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* customizing the scroll bar */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f0c1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8b5cf6;
+    border-radius: 999px;
+}
+
+@layer components {
+    .section-padding {
+        @apply px-6 py-24 max-w-5x1 mx-auto;
+    }
+
+    .card {
+        @apply bg-surface border border-accent/20 rounded-card p-6;
+    }
+
+    .label {
+        @apply font-mono text-accent text-xs uppercase tracking-widest;
+    }
+}

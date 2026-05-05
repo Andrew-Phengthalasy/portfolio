@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/global.css"],"sourcesContent":["@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n@layer base {\n    html {\n        scroll-behavior: smooth;\n    }\n}\n\nbody {\n    background-color: #0f0c1a;\n    color: #ede9e0;\n}\n\n/* get rid of default margins */\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n}\n\n/* customizing the scroll bar */\n\n::-webkit-scrollbar {\n    width: 8px;\n}\n\n::-webkit-scrollbar-track {\n    background: #0f0c1a;\n}\n\n::-webkit-scrollbar-thumb {\n    background: #8b5cf6;\n    border-radius: 999px;\n}\n\n@layer components {\n    .section-padding {\n        @apply px-6 py-24 max-w-5x1 mx-auto;\n    }\n\n    .card {\n        @apply bg-surface border border-accent/20 rounded-card p-6;\n    }\n\n    .label {\n        @apply font-mono text-accent text-xs uppercase tracking-widest;\n    }\n}\n"],"names":[],"mappings":"AAAA;;AACA;;AACA;;AAEA;EACI;;;;;AAKJ;;;;;AAOA;;;;;;AAQA;;;;AAIA;;;;AAIA;;;;;AAKA;EAEQ;;EAIA;;EAIA"}}]
+}
