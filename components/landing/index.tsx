@@ -26,7 +26,7 @@ export default function Hero() {
                 </h1>
 
                 {/*Title*/}
-                <h2 className="font-display text3x1 md:text-5x1 font-normal text-muted mb-6">
+                <h2 className="font-display text3x1 md:text-5xl text-muted mb-6">
                     Full Stack in Progress
                 </h2>
 

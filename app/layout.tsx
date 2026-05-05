@@ -24,7 +24,7 @@ export default function RootLayout({children,}: { children: React.ReactNode; }) 
             className={`${displayFont.variable} ${displayBodyFont.variable} ${displayMonoFont.variable}`}
         >
         <body className="font-body bg-background text-warm antialiased cursor-none">
-        <Cursor />
+        <Cursor/>
         {children}
         </body>
         </html>

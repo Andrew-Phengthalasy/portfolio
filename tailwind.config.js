@@ -1,0 +1,31 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./app/**/*.{ts,js,tsx,jsx}",
+    "./components/**/*.{ts,js,tsx,jsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        display: ["var(--font-display)", "serif"],
+        body: ["var(--font-body)", "sans-serif"],
+        mono: ["var(--font-mono)", "monospace"],
+      },
+      colors: {
+        background: "#0f0c1a",
+        surface: "#1c1830",
+        accent: "#8b5cf6",
+        warm: "#ede9e0",
+        muted: "#a09ab8",
+      },
+      borderRadius: {
+        card: "1rem",
+        btn: "0.5rem",
+      },
+      boxShadow: {
+        glow: "0 0 20px rgba(139, 92, 246, 0.3)",
+      },
+    },
+  },
+  plugins: [],
+};

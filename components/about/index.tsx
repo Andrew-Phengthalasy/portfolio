@@ -13,7 +13,7 @@ export default function About() {
                 {/* Left - little blurb*/}
                 <div>
                     <span className="label mb-3 block">About</span>
-                    <h2 className="font-display text-4x1 md:text-5x1 text-warm mb-6">
+                    <h2 className="font-display text-4x1 md:text-5xl text-warm mb-6">
                         Some things about me - Andrew
                     </h2>
                     <div className="flex flex-col gap-4 font-body text-muted leading-relaxed">

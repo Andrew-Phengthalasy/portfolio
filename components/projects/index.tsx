@@ -10,7 +10,7 @@ export default function Projects() {
             {/* Heading */}
             <div className="mb-12">
                 <span className="label mb-3 block"> My past Work </span>
-                <h2 className="font-display text-4x1 md: text-5x1 text-warm">
+                <h2 className="font-display text-4x1 md: text-5xl text-warm">
                     Selected Projects
                 </h2>
             </div>

@@ -8,6 +8,12 @@
     }
 }
 
+@layer base {
+    * {
+        cursor: none !important;
+    }
+}
+
 body {
     background-color: #0f0c1a;
     color: #ede9e0;
@@ -38,7 +44,7 @@ body {
 
 @layer components {
     .section-padding {
-        @apply px-6 py-24 max-w-5x1 mx-auto;
+        @apply px-6 py-24 max-w-5xl mx-auto;
     }
 
     .card {

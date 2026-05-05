@@ -30,7 +30,7 @@ export default function Header() {
             }
         >
             <div
-                className="max-w-5x1 mx-auto px-6 flex items-center justify-between">
+                className="max-w-5xl mx-auto px-6 flex items-center justify-between">
                 {/*logo & name*/}
                 <button
                     onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
