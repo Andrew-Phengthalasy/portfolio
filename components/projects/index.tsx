@@ -44,11 +44,6 @@ export default function Projects() {
                                     <FaGithub/> Repositories
                                 </Button>
                             )}
-                            {project.liveUrl && (
-                                <Button variant="outline" href={project.liveUrl} target={"_blank"} size="sm">
-                                    <ExternalLink size={14}/> Live
-                                </Button>
-                            )}
                         </div>
                     </Card>
                 ))}
