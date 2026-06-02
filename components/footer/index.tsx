@@ -7,13 +7,12 @@ export default function Footer() {
         <footer className="border-t border-accent/10 mt-24">
             <div className="max-w-5xl mx-auto px-6 py-12 flex flex-col md: flex-row items-center justify-between gap-6">
 
-                {/* Left - Name */}
-
-                <p className="font-display text-x1 text-warm"> Andrew Phengthalasy</p>
-
                 {/* Copyright*/}
                 <p className="font-body text-muted text-sm">
-                    © {new Date().getFullYear()} Andrew Phengthalasy. All rights reserved.
+                    © {new Date().getFullYear()} Andrew Phengthalasy.
+                </p>
+                <p className="font-body text-muted text-sm">
+                    This website was designed and written by me!
                 </p>
 
                 {/* Right - Links */}

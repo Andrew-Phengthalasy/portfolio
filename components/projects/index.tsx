@@ -38,7 +38,6 @@ export default function Projects() {
                             ))}
                         </div>
                         {/* project links */}
-
                         <div className="flex items-center gap-3 pt-2 border-t border-accent/10">
                             {project.githubUrl && (
                                 <Button variant="ghost" href={project.githubUrl} target={"_blank"} size="sm">

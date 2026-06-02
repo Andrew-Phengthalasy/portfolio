@@ -1,4 +1,4 @@
 # portfolio
 First portfolio / website!
 
-I wanted to make this more personalized before I start adding more projects and work on here, so it may be a bit. 
+This is still a work in progress, but I hope to work on this more throughout the future! 
