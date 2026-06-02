@@ -54,7 +54,7 @@ export default function Header() {
                         <Button variant="ghost" href="https://github.com/Andrew-Phengthalasy" target="_blank">
                             <FaGithub size = {20}/> Github
                         </Button>
-                        <Button variant="ghost" href="https://linkedin.com/andrew-phengthalasy//" target="_blank">
+                        <Button variant="ghost" href="https://linkedin.com/andrew-phengthalasy/" target="_blank">
                             <FaLinkedin size = {20}/> LinkedIn
                         </Button>
                         <Button variant = "ghost" href="/AndrewPhengthalasy_resume.pdf" target="_blank" size="sm">
