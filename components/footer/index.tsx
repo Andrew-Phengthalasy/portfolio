@@ -21,7 +21,7 @@ export default function Footer() {
                     <Button variant="ghost" href="https://github.com/Andrew-Phengthalasy" target="_blank">
                         <FaGithub/>
                     </Button>
-                    <Button variant="ghost" href="https://linkedin.com/andrew-phengthalasy/" target="_blank">
+                    <Button variant="ghost" href="https://www.linkedin.com/in/andrew-phengthalasy/" target="_blank">
                         <FaLinkedin/>
                     </Button>
                     <Button variant="outline" href="/AndrewPhengthalasy_resume.pdf" target="_blank" size="sm">

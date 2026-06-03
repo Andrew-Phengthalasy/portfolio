@@ -25,7 +25,7 @@ export default function Hero() {
 
                 {/*Title*/}
                 <h2 className="font-display text-2xl md:text-4xl font-normal text-muted mb-6">
-                    Aspiring Full Stack Developer
+                    Computer Science Major
                 </h2>
 
                 {/* Bio */}
