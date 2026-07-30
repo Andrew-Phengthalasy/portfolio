@@ -36,13 +36,12 @@ export default function Hero() {
                     {/* Title + Bio */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                         <h2 className="font-body text-xl font-light text-muted">
-                            Computer Science Major &<br />Aspiring Full Stack Developer
+                            Aspiring Software Engineer
                         </h2>
                         <p className="font-body text-muted text-sm leading-relaxed">
                             Hello! I'm Andrew and welcome to my website. Here you can find my
                             previous projects, connect with me on socials, or learn more about
-                            me as a person — my hobbies, what I do at WPI, and my journey as
-                            an aspiring Software Engineer.
+                            me as a person — my hobbies, what I do at WPI.
                         </p>
                     </div>
 
@@ -69,13 +68,17 @@ export default function Hero() {
                 {/* Right — Photo */}
                 <div className="hidden md:flex justify-end items-center">
                     <div className="relative w-[340px] h-[440px]">
-                        {/* Purple glow behind */}
-                        <div className="absolute inset-0 rounded-sm bg-accent/30 blur-2xl scale-110 pointer-events-none" />
                         {/* Photo */}
                         <img
                             src="/IMG_7257 2.JPG"
                             alt="Andrew Phengthalasy"
                             className="relative z-10 w-full h-full object-cover rounded-sm border border-gold/40"
+                            style={{ boxShadow: "0 0 40px rgba(201, 168, 76, 0.2)" }}
+                        />
+                        {/* Bottom fade */}
+                        <div
+                            className="absolute bottom-0 left-0 right-0 h-32 z-20 rounded-b-sm"
+                            style={{ background: "linear-gradient(to top, #0a0812 0%, transparent 100%)" }}
                         />
                     </div>
                 </div>

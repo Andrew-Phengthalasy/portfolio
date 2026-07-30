@@ -1,7 +1,9 @@
-import type { Metadata } from "next";
-import { displayFont, displayBodyFont, displayMonoFont } from "./lib/fonts";
+import type {Metadata} from "next";
+import {displayFont, displayBodyFont, displayMonoFont} from "./lib/fonts";
 import Cursor from "@/components/cursor";
 import Header from "@/components/header";
+import PageTransition from "@/components/PageTransition";
+import Background from "@/components/background";
 import "./global.css";
 
 export const metadata: Metadata = {
@@ -17,16 +19,19 @@ export const metadata: Metadata = {
     },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({children}: { children: React.ReactNode }) {
     return (
         <html
             lang="en"
             className={`${displayFont.variable} ${displayBodyFont.variable} ${displayMonoFont.variable}`}
         >
         <body className="font-body bg-background text-warm antialiased cursor-none">
-        <Cursor />
-        <Header />
-        {children}
+        <Background />
+        <Cursor/>
+        <Header/>
+        <PageTransition>
+            {children}
+        </PageTransition>
         </body>
         </html>
     );
