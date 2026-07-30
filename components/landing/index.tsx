@@ -2,6 +2,7 @@
 import {FileText, ArrowDown} from "lucide-react";
 import {FaGithub, FaLinkedin} from "react-icons/fa";
 import {Button} from "@/components/UserInterface";
+import Link from "next/link";
 
 export default function Hero() {
     const projectScroll = () => {
@@ -12,7 +13,7 @@ export default function Hero() {
         <section className="relative min-h-screen flex flex-col items-start justify-center px-6">
             {/* background glow */}
             <div
-                className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-accent/20 rounded-full blur-[140px] pointer-events-none" />
+                className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-accent/20 rounded-full blur-[140px] pointer-events-none"/>
             <div className="relative z-10 max-w-3xl w-full mx-auto">
                 {/*label*/}
                 <span className="label mb-6 block"> Rising Junior @ Worcester Polytechnic Institute</span>
@@ -30,11 +31,13 @@ export default function Hero() {
 
                 {/* Bio */}
                 <p className="font-body text-muted text-base max-w-xl leading-relaxed mb-10">
-                    Hello! I'm Andrew and welcome to my website! Here you can find some of my previous projects, connect with my on socials, or just learn more about me as a person; whether its hobbies, what I do at WPI, or the things I love as an aspiring Software Engineer.
+                    Hello! I'm Andrew and welcome to my website! Here you can find some of my previous projects, connect
+                    with my on socials, or just learn more about me as a person; whether its hobbies, what I do at WPI,
+                    or the things I love as an aspiring Software Engineer.
                 </p>
                 {/* available buttons */}
                 <div className="flex flex-wrap gap-3 mb-16">
-                    <Button variant = "outline" href="/AndrewPhengthalasy_resume.pdf" target="_blank" size="lg">
+                    <Button variant="outline" href="/AndrewPhengthalasy_resume.pdf" target="_blank" size="lg">
                         <FileText size={18}/> Resume
                     </Button>
                     <Button variant="outline" href="https://github.com/Andrew-Phengthalasy" target="_blank" size="lg">
@@ -44,19 +47,14 @@ export default function Hero() {
                             size="lg">
                         <FaLinkedin size={18}/> LinkedIn
                     </Button>
-                    <Button variant="ghost" onClick={projectScroll} size="lg">
+                    <Link
+                        href="/projects"
+                        className="inline-flex items-center gap-2 font-body text-sm text-muted hover:text-warm transition-colors duration-200 px-4 py-2"
+                    >
                         View my Projects <ArrowDown size={18}/>
-                    </Button>
+                    </Link>
                 </div>
             </div>
-
-            {/* Indicate user to scroll*/}
-            <button
-                onClick={projectScroll}
-                className="absolute bottom-10 left-1/2 -translate-x-1/2 text-muted hover:text-accent transition-colors duration-200 animate-bounce"
-            >
-                <ArrowDown size={20}/>
-            </button>
         </section>
 
 
