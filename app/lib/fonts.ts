@@ -1,9 +1,10 @@
-import {Cormorant_Garamond, DM_Sans, JetBrains_Mono} from "next/font/google";
+import {Playfair_Display, DM_Sans, JetBrains_Mono} from "next/font/google";
 
-export const displayFont = Cormorant_Garamond({
-    subsets: [ "latin"],
-    weight: ["400","500","600","700"],
-    variable:"--font-display",
+export const displayFont = Playfair_Display({
+    subsets: ["latin"],
+    weight: ["400", "500", "600", "700"],
+    variable: "--font-playfair",
+    style: ["normal", "italic"],
 });
 
 export const displayBodyFont = DM_Sans({

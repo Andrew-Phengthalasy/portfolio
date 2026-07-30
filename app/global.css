@@ -52,6 +52,6 @@ body {
     }
 
     .label {
-        @apply font-mono text-accent text-sm uppercase tracking-widest;
+        @apply font-mono text-gold text-sm uppercase tracking-widest;
     }
 }

@@ -28,11 +28,12 @@ export default function Header() {
             <div
                 className="w-full px-10 flex items-center justify-between">
                 {/*logo & name*/}
-                <button
-                    onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}
-                    className="font-display text-2xl text-warm hover:text-accent transition-colors duration-200">
+                <Link
+                    href="/"
+                    className="font-playfair italic text-2xl text-warm hover:text-gold transition-colors duration-200"
+                >
                     AP
-                </button>
+                </Link>
                 {/*Desktop Navigation*/}
                 <nav
                     className="hidden md:flex items-center gap-6 ">
@@ -40,7 +41,7 @@ export default function Header() {
                         <Link
                             key={link.label}
                             href={link.href}
-                            className="font-body text-left text-warm hover:text-accent transition-colors duration-200"
+                            className="font-body text-left text-warm hover:text-gold transition-colors duration-200"
                         >
                             {link.label}
                         </Link>

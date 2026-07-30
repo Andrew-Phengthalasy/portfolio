@@ -1,27 +1,38 @@
-import {Card, Badge, Button} from "@/components/UserInterface";
+import {Badge} from "@/components/UserInterface";
 import {projects} from "@/app/lib/data/projects";
 import {FaGithub} from "react-icons/fa";
+import {ArrowRight} from "lucide-react";
 
 export default function Projects() {
     return (
         <section id="projects" className="section-padding pt-32">
 
-            {/* Heading */}
-            <div className="mb-12">
-                <span className="label mb-3 block">My past Work</span>
-                <h2 className="font-display text-4xl md:text-5xl text-warm">
+            <div className="mb-16">
+                <div className="flex items-center gap-3 mb-4">
+                    <div className="w-8 h-[1px] bg-gold"/>
+                    <span className="label">My past Work</span>
+                </div>
+                <h2 className="font-playfair text-5xl md:text-6xl font-normal italic text-warm mb-4">
                     Selected Projects
                 </h2>
+                <div className="w-full h-[1px] bg-gold/20"/>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {projects.map((project) => (
-                    <Card key={project.title} hover className="flex flex-col justify-between gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {projects.map((project, index) => (
+                    <div
+                        key={project.title}
+                        className="group relative border border-white/5 hover:border-gold/30 rounded-sm p-8 transition-all duration-500 bg-surface/40 hover:bg-surface/60"
+                    >
+            <span className="font-mono text-xs text-gold/40 mb-6 block tracking-widest">
+              {String(index + 1).padStart(2, "0")}
+            </span>
 
-                        {/* Top */}
-                        <div>
+                        <div className="mb-6">
                             <div className="flex items-start justify-between mb-3">
-                                <h3 className="font-display text-2xl text-warm">{project.title}</h3>
+                                <h3 className="font-playfair text-2xl font-normal italic text-warm group-hover:text-gold transition-colors duration-300">
+                                    {project.title}
+                                </h3>
                                 {project.featured && (
                                     <Badge label="Featured" variant="accent"/>
                                 )}
@@ -31,23 +42,24 @@ export default function Projects() {
                             </p>
                         </div>
 
-                        {/* Tags */}
-                        <div className="flex flex-wrap gap-2">
+                        <div className="flex flex-wrap gap-2 mb-8">
                             {project.tags.map((tag) => (
                                 <Badge key={tag} label={tag}/>
                             ))}
                         </div>
 
-                        {/* Links */}
-                        <div className="flex items-center gap-3 pt-2 border-t border-accent/10">
-                            {project.githubUrl && (
-                                <Button variant="ghost" href={project.githubUrl} target="_blank" size="sm">
-                                    <FaGithub/> Repositories
-                                </Button>
-                            )}
+                        <div className="flex items-center gap-4 pt-4 border-t border-white/5">
+                            {project.githubUrl ? (
+                                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer"
+                                   className="inline-flex items-center gap-2 font-mono text-xs text-muted hover:text-gold transition-colors duration-300 tracking-widest uppercase">
+                                    <FaGithub size={14}/>
+                                    <span>View Code</span>
+                                    <ArrowRight size={12}/>
+                                </a>
+                            ) : null}
                         </div>
 
-                    </Card>
+                    </div>
                 ))}
             </div>
 

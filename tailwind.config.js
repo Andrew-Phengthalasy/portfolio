@@ -7,16 +7,17 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        display: ["var(--font-display)", "serif"],
+        playfair: ["var(--font-playfair)", "serif"],
         body: ["var(--font-body)", "sans-serif"],
         mono: ["var(--font-mono)", "monospace"],
       },
       colors: {
         background: "#0a0812",
         surface: "#13102a",
-        accent: "#b87fff",
-        warm: "#f0ece4",
-        muted: "#b8b2cc",
+        accent: "#9d6eff",
+        gold: "#c9a84c",
+        warm: "#f8f8f8",
+        muted: "#8892a4",
       },
       borderRadius: {
         card: "1rem",
