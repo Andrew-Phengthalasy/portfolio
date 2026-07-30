@@ -57,7 +57,7 @@ export default function Hero() {
                             <FaLinkedin size={16} /> LinkedIn
                         </Button>
                         <Link
-                            href="/projects"
+                            href="/Projects"
                             className="inline-flex items-center gap-2 font-mono text-xs text-gold hover:text-warm transition-colors duration-300 tracking-widest uppercase ml-4"
                         >
                             View Projects <ArrowRight size={14} />
